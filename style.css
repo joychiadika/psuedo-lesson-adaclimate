@@ -14,13 +14,13 @@ h3{
 }
 .example-parent{
     display: flex;
-    gap: 18px;
+    gap: 15px;
     justify-content: center;
     margin-bottom: 15px;
 }
 .example{
-    height: 18px;
-    width: 18px;
+    height: 30px;
+    width: 30px;
     background-color: blue;
 }
 div.example:first-child{
@@ -37,8 +37,8 @@ div.example:nth-child(4){
 }
 div.example:nth-child(5){
     background-color: blue;
-    height: 14px;
-    width: 14px;
+    height: 18px;
+    width: 18px;
     margin: auto 0;
 }
 p::first-letter{
