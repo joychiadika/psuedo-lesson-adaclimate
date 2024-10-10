@@ -41,6 +41,10 @@ div.example:nth-child(5){
     width: 18px;
     margin: auto 0;
 }
+::selection {
+    color: azure;
+    background-color: #845ec2;
+}
 p::first-letter{
     font-size: 35px;
     font-weight: 700;
